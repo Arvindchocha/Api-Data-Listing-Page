@@ -40,6 +40,8 @@ section ul li.active {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 #pagination button {
@@ -56,4 +58,5 @@ section ul li.active {
 
 #pagination button:disabled{
     opacity: .5;
+    cursor: not-allowed;
 }
